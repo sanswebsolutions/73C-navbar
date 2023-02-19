@@ -1,6 +1,8 @@
 import { OnInit } from '@angular/core';
 import * as i0 from "@angular/core";
 export declare class ProfilebuttonComponent implements OnInit {
+    user: any;
+    shortName: any;
     constructor();
     ngOnInit(): void;
     ProfileMenu(): void;
